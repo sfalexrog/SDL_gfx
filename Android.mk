@@ -6,6 +6,8 @@ LOCAL_MODULE := SDL_gfx
 
 LOCAL_ARM_MODE := arm
 
+#LOCAL_ARM_NEON := true
+
 LOCAL_CFLAGS := -I$(LOCAL_PATH) -I$(LOCAL_PATH)/../SDL/include
 
 LOCAL_CPP_EXTENSION := .cpp
